@@ -8,14 +8,14 @@ export default function About() {
       </p>
       <div className="flex flex-col items-center">
         <a
-          href="https://www.linkedin.com/in/your-linkedin-profile"
+          href="https://www.linkedin.com/in/lam-dang-657949144/"
           className="flex items-center text-xl mb-4 text-gray-800 no-underline"
         >
           <FaLinkedin className="mr-2 text-xl" />
           LinkedIn
         </a>
         <a
-          href="https://github.com/your-github-profile"
+          href="https://github.com/lam-valamorgulis/reactjs-socket.io-jwt-httpApi"
           className="flex items-center text-xl text-gray-800 no-underline"
         >
           <FaGithub className="mr-2 text-xl" />
