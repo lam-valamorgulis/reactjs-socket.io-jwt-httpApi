@@ -19,6 +19,7 @@ const DashBoardTable = () => {
       socket.disconnect();
     };
   }, [user]);
+  // object add json.stringify(user)
 
   // Listen for data event
   useEffect(() => {
@@ -63,6 +64,7 @@ const DashBoardTable = () => {
     <div className="flex-1 flex flex-col justify-center">
       <table className="w-full border-collapse">
         <tbody>
+          {/* duplicate if data2 */}
           {data.map((row, rowIndex) => (
             <tr className="flex flex-row" key={rowIndex}>
               {row.map((item, columnIndex) => (
